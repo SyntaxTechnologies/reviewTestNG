@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ReviewTestNg.listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/moazzam/IdeaProjects/TestNgReview/src/ReviewTestNg/hardAssertions.java">
+        <classes>
+            <class name="ReviewTestNg.hardAssertions">
+                <methods>
+                    <include name="hardAssert"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

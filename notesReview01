@@ -1,0 +1,45 @@
+***************Selenium Review 01 TestNG*************
+
+strucutre of xml
+
+<suite>
+	<test>
+		<classes>
+			<class name="">
+					<method>
+					</method>
+
+			</class>
+		</classes>
+	<test>
+</suite>
+
+Data driven Testing:
+
+@DataProvider-->
+
+Step1:
+create a mehtod that returns a 2D array
+
+
+listeners---->
+listeners are compnent of testNg and they keep track of all the events during execution
+like
+
+testcase started
+test case passed
+test case failed
+test cases skipped
+
+and whenever any of these event occurs it gives us the control to
+run a particular set of code or logic of our own choice
+
+
+
+parallel execution:
+execution of test cases at the same time
+it is much faster
+
+
+
+
